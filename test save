@@ -1,0 +1,8 @@
+N = 6
+
+for i in range(1, N+1):
+#     In each row, we have to print exactly i-stars
+    for j in range(i):
+        print("*", end='')
+#   After printing the stars, we print a new line
+    print()
